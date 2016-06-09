@@ -1,3 +1,30 @@
 .headshot {
-  border-radius: 100px;	
+  border-radius: 100px;
+}
+
+.portfolio-img {
+
+}
+
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 0px;
+}
+
+.portfolio-img-placeholder {
+  width: 324px;
+  height: 499px;
+  border: 3px solid #2C3E50;
+  border-radius: 3px;
+  font-size: 24px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: #2C3E50;
 }
