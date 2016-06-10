@@ -2,8 +2,13 @@
   border-radius: 100px;
 }
 
-.portfolio-img {
-
+.portfolio-link {
+  opacity: 0.8;
+  width: 324px;
+  height: 499px;
+}
+.portfolio-link:hover {
+  opacity: 1;
 }
 
 .portfolio-item {
@@ -27,4 +32,7 @@
   justify-content: center;
   align-items:center;
   color: #2C3E50;
+}
+.portfolio-link a:hover {
+  text-decoration:none;
 }
