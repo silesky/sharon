@@ -60,6 +60,10 @@ body {
   color:  #365F86;
 }
 
+/* Sharon Solwitz at the top hover effect*/
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #BA3F1D;
+}
 /* in body, links should be red */
 a, a:hover {
   color:  #BA3F1D;
