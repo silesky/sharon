@@ -1,5 +1,7 @@
 .headshot {
   border-radius: 100px;
+  height: 190px;
+  width: 190px;
 }
 
 .portfolio-link {
