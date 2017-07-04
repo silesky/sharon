@@ -16,24 +16,21 @@
   margin-bottom: 25px;
 }
 .portfolio-img {
+  width: 324px;
+  height: 499px;
   margin-bottom: 10px;
 }
+
+.portfolio-img--border {
+  border: 3px solid #365F86;
+  border-radius: 3px;
+}
+
 .portfolio-item:last-child {
   margin-bottom: 0px;
 }
 
-.portfolio-img-placeholder {
-  width: 324px;
-  height: 499px;
-  border: 3px solid #365F86;
-  border-radius: 3px;
-  font-size: 24px;
-  font-weight: bolder;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  color: #365F86;
-}
+
 .portfolio-link a:hover {
   text-decoration:none;
 }
@@ -87,6 +84,10 @@ hr.star-primary {
 /* star bg color */
 hr.star-primary:after {
   color: #365F86;
+}
+
+hr.star-primary:after, hr.star-light:after, hr.star-primary:after {
+    content: "\f02d"; /* book */
 }
 
 

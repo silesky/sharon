@@ -56,9 +56,6 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
-hr.star-primary:after, hr.star-light:after, hr.star-primary:after {
-    content: "\f02d"; /* book */
-}
 
 hr.star-light {
     border-color: #fff;
