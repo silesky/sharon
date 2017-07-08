@@ -89,9 +89,30 @@ hr.star-primary:after {
 hr.star-primary:after, hr.star-light:after, hr.star-primary:after {
     content: "\f02d"; /* book */
 }
+/* 
+   "\f185" - sun
+   "\f02d" -  book
+   "\f040" - pencil
+   "\f129" - info
+   "\f05a" - info-circle
+*/
 
+hr.hr-skills:after {
+  content: "\f185";
+}
 
-/
+hr.hr-book:after {
+   content: "\f02d";
+}
+
+hr.hr-about:after {
+  content: "\f05a";
+}
+
+hr.hr-cv:after {
+   content: "\f040";
+}
+
 div.navbar-header.page-scroll > a:hover {
   color:  #BA3F1D;
 }
