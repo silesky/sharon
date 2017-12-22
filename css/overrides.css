@@ -1,3 +1,8 @@
+.book-links a {
+  display: inline-block;
+}
+
+
 .headshot {
 
   border-radius: 100px;
@@ -6,7 +11,7 @@
 }
 
 .portfolio-link {
-  opacity: 0.8;
+  opacity: 0.9;
   height: 499px;
 }
 .portfolio-link:hover {
@@ -49,89 +54,89 @@ header, hr.star-light:after, section.success   {
 red:  #BA3F1D;
 reg blue:   #365F86;
 dark blue: #0E3459
-*/
-/* when you click on nav menu links, background menu should turn a darker shade of blue */
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color:  #0E3459;
-}
-/* text color should be blue by default, unless in 'sucess' */
-body {
-  color:  #365F86;
-}
+ */
+  /* when you click on nav menu links, background menu should turn a darker shade of blue */
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color:  #0E3459;
+  }
+  /* text color should be blue by default, unless in 'sucess' */
+  body {
+    color:  #365F86;
+  }
 
-/* Sharon Solwitz at the top hover effect*/
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #BA3F1D;
-}
-/* in body, links should be red */
-a, a:hover {
-  color:  #BA3F1D;
-}
+  /* Sharon Solwitz at the top hover effect*/
+  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #BA3F1D;
+  }
+  /* in body, links should be red */
+  a, a:hover {
+    color:  #BA3F1D;
+  }
 
-/* unless in success, then links should be blue */
+  /* unless in success, then links should be blue */
 
-/** Kalikos **/
-section.success a {
-  color:  #365F86;
-}
-section.success a:hover {
-  color: #365F86;
-}
+  /** Kalikos **/
+  section.success a {
+    color:  #365F86;
+  }
+  section.success a:hover {
+    color: #365F86;
+  }
 
-/* star */
-hr.star-primary {
-  border-color:  #365F86;
-}
-/* star bg color */
-hr.star-primary:after {
-  color: #365F86;
-}
+  /* star */
+  hr.star-primary {
+    border-color:  #365F86;
+  }
+  /* star bg color */
+  hr.star-primary:after {
+    color: #365F86;
+  }
 
-hr.star-primary:after, hr.star-light:after, hr.star-primary:after {
+  hr.star-primary:after, hr.star-light:after, hr.star-primary:after {
     content: "\f02d"; /* book */
-}
-/*
-   "\f185" - sun
-   "\f02d" -  book
-   "\f040" - pencil
-   "\f129" - info
-   "\f05a" - info-circle
-*/
+  }
+  /*
+  "\f185" - sun
+  "\f02d" -  book
+  "\f040" - pencil
+  "\f129" - info
+  "\f05a" - info-circle
+   */
 
-hr.hr-skills:after {
-  content: "\f185";
-}
+  hr.hr-skills:after {
+    content: "\f185";
+  }
 
-hr.hr-book:after {
-   content: "\f02d";
-}
+  hr.hr-book:after {
+    content: "\f02d";
+  }
 
-hr.hr-about:after {
-  content: "\f05a";
-}
+  hr.hr-about:after {
+    content: "\f05a";
+  }
 
-hr.hr-cv:after {
-   content: "\f040";
-}
+  hr.hr-cv:after {
+    content: "\f040";
+  }
 
-div.navbar-header.page-scroll > a:hover {
-  color:  #BA3F1D;
-}
+  div.navbar-header.page-scroll > a:hover {
+    color:  #BA3F1D;
+  }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color:  #BA3F1D;
-}
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:  #BA3F1D;
+  }
 
-/* center scroll to top fob */
-.scroll-top .btn {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-/*
-$blue - #80A1C1
-$yellow - #EEE3AB
-$beige - #D9CFC1
-$bown - #A77E58
-$red - #BA3F1D
-*/
+  /* center scroll to top fob */
+  .scroll-top .btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  /*
+  $blue - #80A1C1
+  $yellow - #EEE3AB
+  $beige - #D9CFC1
+  $bown - #A77E58
+  $red - #BA3F1D
+   */
