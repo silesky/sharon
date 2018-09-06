@@ -2,9 +2,7 @@
   display: inline-block;
 }
 
-
 .headshot {
-
   border-radius: 100px;
   height: 190px;
   width: 190px;
@@ -28,7 +26,7 @@
 }
 
 .portfolio-img--border {
-  border: 3px solid #365F86;
+  border: 3px solid #365f86;
   border-radius: 3px;
 }
 
@@ -36,18 +34,20 @@
   margin-bottom: 0px;
 }
 
-
 .portfolio-link a:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 
-
-header, hr.star-light:after, section.success   {
-  background-color: #BA3F1D;
+header,
+hr.star-light:after,
+section.success {
+  background-color: #ba3f1d;
 }
 
-.navbar-default,  footer .footer-above, footer .footer-below {
-  background-color: #365F86;
+.navbar-default,
+footer .footer-above,
+footer .footer-below {
+  background-color: #365f86;
 }
 
 /*
@@ -55,47 +55,59 @@ red:  #BA3F1D;
 reg blue:   #365F86;
 dark blue: #0E3459
  */
-  /* when you click on nav menu links, background menu should turn a darker shade of blue */
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color:  #0E3459;
-  }
-  /* text color should be blue by default, unless in 'sucess' */
-  body {
-    color:  #365F86;
-  }
+/* when you click on nav menu links, background menu should turn a darker shade of blue */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #0e3459;
+}
+/* text color should be blue by default, unless in 'sucess' */
+body {
+  color: #365f86;
+}
 
-  /* Sharon Solwitz at the top hover effect*/
-  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #BA3F1D;
-  }
-  /* in body, links should be red */
-  a, a:hover {
-    color:  #BA3F1D;
-  }
+/* Sharon Solwitz at the top hover effect*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ba3f1d;
+}
+/* in body, links should be red */
+a,
+a:hover {
+  color: #ba3f1d;
+}
 
-  /* unless in success, then links should be blue */
+/* unless in success, then links should be blue */
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #1ee3bd;
+}
+/** Kalikos **/
+section.success a {
+  color: #1ee3bd;
+}
+section.success a:hover {
+  color: #1ee3bd;
+}
 
-  /** Kalikos **/
-  section.success a {
-    color:  #365F86;
-  }
-  section.success a:hover {
-    color: #365F86;
-  }
+/* star */
+hr.star-primary {
+  border-color: #365f86;
+}
+/* star bg color */
+hr.star-primary:after {
+  color: #365f86;
+}
 
-  /* star */
-  hr.star-primary {
-    border-color:  #365F86;
-  }
-  /* star bg color */
-  hr.star-primary:after {
-    color: #365F86;
-  }
-
-  hr.star-primary:after, hr.star-light:after, hr.star-primary:after {
-    content: "\f02d"; /* book */
-  }
-  /*
+hr.star-primary:after,
+hr.star-light:after,
+hr.star-primary:after {
+  content: '\f02d'; /* book */
+}
+/*
   "\f185" - sun
   "\f02d" -  book
   "\f040" - pencil
@@ -103,37 +115,38 @@ dark blue: #0E3459
   "\f05a" - info-circle
    */
 
-  hr.hr-skills:after {
-    content: "\f185";
-  }
+hr.hr-skills:after {
+  content: '\f185';
+}
 
-  hr.hr-book:after {
-    content: "\f02d";
-  }
+hr.hr-book:after {
+  content: '\f02d';
+}
 
-  hr.hr-about:after {
-    content: "\f05a";
-  }
+hr.hr-about:after {
+  content: '\f05a';
+}
 
-  hr.hr-cv:after {
-    content: "\f040";
-  }
+hr.hr-cv:after {
+  content: '\f040';
+}
 
-  div.navbar-header.page-scroll > a:hover {
-    color:  #BA3F1D;
-  }
+div.navbar-header.page-scroll > a:hover {
+  color: #ba3f1d;
+}
 
-  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color:  #BA3F1D;
-  }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ba3f1d;
+}
 
-  /* center scroll to top fob */
-  .scroll-top .btn {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  /*
+/* center scroll to top fob */
+.scroll-top .btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/*
   $blue - #80A1C1
   $yellow - #EEE3AB
   $beige - #D9CFC1
