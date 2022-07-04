@@ -107,6 +107,11 @@ hr.star-primary:after {
   color: #ba3f1d;
 }
 
+.awards img {
+  width: 100%;
+  max-width: 300px;
+}
+
 /*
 $blue - #80A1C1
 $yellow - #EEE3AB
