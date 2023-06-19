@@ -74,7 +74,13 @@ body {
 /* in body, links should be red */
 a,
 a:hover {
+  cursor: pointer;
   color: #ba3f1d;
+}
+
+main a {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* unless in success, then links should be blue */
