@@ -77,6 +77,10 @@ a:hover {
   color: #ba3f1d;
 }
 
+main a {
+  text-decoration: underline;
+}
+
 /* unless in success, then links should be blue */
 
 /** Kalikos **/
