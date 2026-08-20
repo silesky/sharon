@@ -118,6 +118,12 @@ hr.star-primary:after {
   max-width: 300px;
 }
 
+.book-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 /*
 $blue - #80A1C1
 $yellow - #EEE3AB
